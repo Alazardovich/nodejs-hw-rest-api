@@ -6,6 +6,7 @@ const signup = require("./auth/signup");
 const login = require("./auth/login");
 const logout = require("./auth/logout");
 const getCurrent = require("./users/current");
+const changeAvatar = require("./users/avatars");
 
 module.exports = {
   add,
@@ -16,4 +17,5 @@ module.exports = {
   login,
   logout,
   getCurrent,
+  changeAvatar,
 };
