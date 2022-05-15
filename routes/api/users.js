@@ -5,6 +5,7 @@ const ctrl = require("../../controllers");
 const router = express.Router();
 
 router.get("/current", auth, ctrlWrapper(ctrl.getCurrent));
+router.patch("/", auth, ctrlWrapper(ctrl.changeSubscription));
 router.patch(
   "/avatars",
   auth,
