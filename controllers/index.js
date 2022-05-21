@@ -8,7 +8,7 @@ const logout = require("./auth/logout");
 const getCurrent = require("./users/current");
 const changeAvatar = require("./users/avatars");
 const changeSubscription = require("./users/subscription");
-
+const verifyTokenMail = require("./users/verify");
 module.exports = {
   add,
   getAll,
@@ -20,4 +20,5 @@ module.exports = {
   getCurrent,
   changeAvatar,
   changeSubscription,
+  verifyTokenMail,
 };

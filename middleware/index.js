@@ -1,5 +1,5 @@
 const ctrlWrapper = require("./ctrlWrapper");
-const validation = require("./validetion");
+const validation = require("./validation");
 const auth = require("./auth");
 const upload = require("./uploadAvatar");
 
